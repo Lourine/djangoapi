@@ -34,7 +34,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            cd pollsapi
+            cd djangoApi
             python manage.py test
 
       - store_artifacts:
